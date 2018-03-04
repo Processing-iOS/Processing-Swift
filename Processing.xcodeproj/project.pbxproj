@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01AF723F09A4A09D0C79CF4E /* Pods_Processing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB00F5E443582218DF356B84 /* Pods_Processing.framework */; };
+		6332B8CA204C35FA004CA8A9 /* Notification+Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */; };
 		638DA7F1204213E2008B98E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F0204213E2008B98E4 /* AppDelegate.swift */; };
 		638DA7F3204213E2008B98E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F2204213E2008B98E4 /* FirstViewController.swift */; };
 		638DA7F5204213E2008B98E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F4204213E2008B98E4 /* SecondViewController.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Processing.swift"; sourceTree = "<group>"; };
 		638DA7ED204213E2008B98E4 /* Processing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Processing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638DA7F0204213E2008B98E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		638DA7F2204213E2008B98E4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				638DA7F0204213E2008B98E4 /* AppDelegate.swift */,
+				6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */,
 				638DA854204795DD008B98E4 /* UIColor+ProcessingColor.swift */,
 				638DA7F2204213E2008B98E4 /* FirstViewController.swift */,
 				638DA7F4204213E2008B98E4 /* SecondViewController.swift */,
@@ -461,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6332B8CA204C35FA004CA8A9 /* Notification+Processing.swift in Sources */,
 				638DA855204795DD008B98E4 /* UIColor+ProcessingColor.swift in Sources */,
 				638DA7F5204213E2008B98E4 /* SecondViewController.swift in Sources */,
 				638DA7F1204213E2008B98E4 /* AppDelegate.swift in Sources */,

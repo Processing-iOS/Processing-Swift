@@ -14,8 +14,8 @@ extension UIColor {
         return UIColor(red: 32.0/255.0, green: 58.0/255.0, blue: 92.0/255.0, alpha: 1.0)
     }
     
-    class func batteryFull() -> UIColor {
-        return UIColor(red: 118.0/255.0, green: 214.0/255.0, blue: 113.0/255.0, alpha: 1.0)
+    class func processingTint() -> UIColor {
+        return UIColor.white
     }
     
     class func selection() -> UIColor {
