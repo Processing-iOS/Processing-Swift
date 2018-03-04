@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01AF723F09A4A09D0C79CF4E /* Pods_Processing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB00F5E443582218DF356B84 /* Pods_Processing.framework */; };
+		6332B8CA204C35FA004CA8A9 /* Notification+Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */; };
 		638DA7F1204213E2008B98E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F0204213E2008B98E4 /* AppDelegate.swift */; };
 		638DA7F3204213E2008B98E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F2204213E2008B98E4 /* FirstViewController.swift */; };
 		638DA7F5204213E2008B98E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA7F4204213E2008B98E4 /* SecondViewController.swift */; };
@@ -16,6 +17,42 @@
 		638DA7FD204213E2008B98E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638DA7FB204213E2008B98E4 /* LaunchScreen.storyboard */; };
 		638DA808204213E3008B98E4 /* ProcessingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA807204213E3008B98E4 /* ProcessingTests.swift */; };
 		638DA813204213E3008B98E4 /* ProcessingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA812204213E3008B98E4 /* ProcessingUITests.swift */; };
+		638DA82A204793A5008B98E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638DA820204793A3008B98E4 /* GoogleService-Info.plist */; };
+		638DA82B204793A5008B98E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638DA820204793A3008B98E4 /* GoogleService-Info.plist */; };
+		638DA82C204793A5008B98E4 /* Example_Draw.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA821204793A4008B98E4 /* Example_Draw.pde */; };
+		638DA82D204793A5008B98E4 /* Example_Draw.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA821204793A4008B98E4 /* Example_Draw.pde */; };
+		638DA82E204793A5008B98E4 /* Example_3D.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA822204793A4008B98E4 /* Example_3D.pde */; };
+		638DA82F204793A5008B98E4 /* Example_3D.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA822204793A4008B98E4 /* Example_3D.pde */; };
+		638DA830204793A5008B98E4 /* processing.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 638DA823204793A4008B98E4 /* processing.min.js */; };
+		638DA831204793A5008B98E4 /* processing.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 638DA823204793A4008B98E4 /* processing.min.js */; };
+		638DA832204793A5008B98E4 /* syntax highlighting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638DA824204793A4008B98E4 /* syntax highlighting.plist */; };
+		638DA833204793A5008B98E4 /* syntax highlighting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638DA824204793A4008B98E4 /* syntax highlighting.plist */; };
+		638DA834204793A5008B98E4 /* Example_Clock.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA825204793A4008B98E4 /* Example_Clock.pde */; };
+		638DA835204793A5008B98E4 /* Example_Clock.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA825204793A4008B98E4 /* Example_Clock.pde */; };
+		638DA836204793A5008B98E4 /* container.html in Resources */ = {isa = PBXBuildFile; fileRef = 638DA826204793A4008B98E4 /* container.html */; };
+		638DA837204793A5008B98E4 /* container.html in Resources */ = {isa = PBXBuildFile; fileRef = 638DA826204793A4008B98E4 /* container.html */; };
+		638DA838204793A5008B98E4 /* Example_Gyroscope_Accelerometer.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA827204793A4008B98E4 /* Example_Gyroscope_Accelerometer.pde */; };
+		638DA839204793A5008B98E4 /* Example_Gyroscope_Accelerometer.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA827204793A4008B98E4 /* Example_Gyroscope_Accelerometer.pde */; };
+		638DA83A204793A5008B98E4 /* Example_Multitouch.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA828204793A5008B98E4 /* Example_Multitouch.pde */; };
+		638DA83B204793A5008B98E4 /* Example_Multitouch.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA828204793A5008B98E4 /* Example_Multitouch.pde */; };
+		638DA83C204793A5008B98E4 /* Example_FollowMe.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA829204793A5008B98E4 /* Example_FollowMe.pde */; };
+		638DA83D204793A5008B98E4 /* Example_FollowMe.pde in Resources */ = {isa = PBXBuildFile; fileRef = 638DA829204793A5008B98E4 /* Example_FollowMe.pde */; };
+		638DA846204793B6008B98E4 /* SourceCodePro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA83F204793B6008B98E4 /* SourceCodePro-Semibold.ttf */; };
+		638DA847204793B6008B98E4 /* SourceCodePro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA83F204793B6008B98E4 /* SourceCodePro-Semibold.ttf */; };
+		638DA848204793B6008B98E4 /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA840204793B6008B98E4 /* SourceCodePro-Medium.ttf */; };
+		638DA849204793B6008B98E4 /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA840204793B6008B98E4 /* SourceCodePro-Medium.ttf */; };
+		638DA84A204793B6008B98E4 /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA841204793B6008B98E4 /* SourceCodePro-Light.ttf */; };
+		638DA84B204793B6008B98E4 /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA841204793B6008B98E4 /* SourceCodePro-Light.ttf */; };
+		638DA84C204793B6008B98E4 /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA842204793B6008B98E4 /* SourceCodePro-Black.ttf */; };
+		638DA84D204793B6008B98E4 /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA842204793B6008B98E4 /* SourceCodePro-Black.ttf */; };
+		638DA84E204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA843204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf */; };
+		638DA84F204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA843204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf */; };
+		638DA850204793B6008B98E4 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA844204793B6008B98E4 /* SourceCodePro-Regular.ttf */; };
+		638DA851204793B6008B98E4 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA844204793B6008B98E4 /* SourceCodePro-Regular.ttf */; };
+		638DA852204793B6008B98E4 /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA845204793B6008B98E4 /* SourceCodePro-Bold.ttf */; };
+		638DA853204793B6008B98E4 /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638DA845204793B6008B98E4 /* SourceCodePro-Bold.ttf */; };
+		638DA855204795DD008B98E4 /* UIColor+ProcessingColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA854204795DD008B98E4 /* UIColor+ProcessingColor.swift */; };
+		638DA856204795DD008B98E4 /* UIColor+ProcessingColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA854204795DD008B98E4 /* UIColor+ProcessingColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Processing.swift"; sourceTree = "<group>"; };
 		638DA7ED204213E2008B98E4 /* Processing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Processing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638DA7F0204213E2008B98E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		638DA7F2204213E2008B98E4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +88,24 @@
 		638DA80E204213E3008B98E4 /* ProcessingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcessingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638DA812204213E3008B98E4 /* ProcessingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingUITests.swift; sourceTree = "<group>"; };
 		638DA814204213E3008B98E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638DA820204793A3008B98E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		638DA821204793A4008B98E4 /* Example_Draw.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_Draw.pde; sourceTree = "<group>"; };
+		638DA822204793A4008B98E4 /* Example_3D.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_3D.pde; sourceTree = "<group>"; };
+		638DA823204793A4008B98E4 /* processing.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = processing.min.js; sourceTree = "<group>"; };
+		638DA824204793A4008B98E4 /* syntax highlighting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "syntax highlighting.plist"; sourceTree = "<group>"; };
+		638DA825204793A4008B98E4 /* Example_Clock.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_Clock.pde; sourceTree = "<group>"; };
+		638DA826204793A4008B98E4 /* container.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = container.html; sourceTree = "<group>"; };
+		638DA827204793A4008B98E4 /* Example_Gyroscope_Accelerometer.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_Gyroscope_Accelerometer.pde; sourceTree = "<group>"; };
+		638DA828204793A5008B98E4 /* Example_Multitouch.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_Multitouch.pde; sourceTree = "<group>"; };
+		638DA829204793A5008B98E4 /* Example_FollowMe.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_FollowMe.pde; sourceTree = "<group>"; };
+		638DA83F204793B6008B98E4 /* SourceCodePro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Semibold.ttf"; sourceTree = "<group>"; };
+		638DA840204793B6008B98E4 /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Medium.ttf"; sourceTree = "<group>"; };
+		638DA841204793B6008B98E4 /* SourceCodePro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Light.ttf"; sourceTree = "<group>"; };
+		638DA842204793B6008B98E4 /* SourceCodePro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Black.ttf"; sourceTree = "<group>"; };
+		638DA843204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		638DA844204793B6008B98E4 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		638DA845204793B6008B98E4 /* SourceCodePro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Bold.ttf"; sourceTree = "<group>"; };
+		638DA854204795DD008B98E4 /* UIColor+ProcessingColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ProcessingColor.swift"; sourceTree = "<group>"; };
 		CB00F5E443582218DF356B84 /* Pods_Processing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Processing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CD2D4ADA19C5AB2EAF58F5 /* Pods-Processing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Processing/Pods-Processing.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B556FCDA106D640CEE6EBA /* Pods-Processing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Processing/Pods-Processing.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,12 +180,25 @@
 			isa = PBXGroup;
 			children = (
 				638DA7F0204213E2008B98E4 /* AppDelegate.swift */,
+				6332B8C9204C35FA004CA8A9 /* Notification+Processing.swift */,
+				638DA854204795DD008B98E4 /* UIColor+ProcessingColor.swift */,
 				638DA7F2204213E2008B98E4 /* FirstViewController.swift */,
 				638DA7F4204213E2008B98E4 /* SecondViewController.swift */,
 				638DA7F6204213E2008B98E4 /* Main.storyboard */,
 				638DA7F9204213E2008B98E4 /* Assets.xcassets */,
 				638DA7FB204213E2008B98E4 /* LaunchScreen.storyboard */,
 				638DA7FE204213E2008B98E4 /* Info.plist */,
+				638DA826204793A4008B98E4 /* container.html */,
+				638DA822204793A4008B98E4 /* Example_3D.pde */,
+				638DA825204793A4008B98E4 /* Example_Clock.pde */,
+				638DA821204793A4008B98E4 /* Example_Draw.pde */,
+				638DA829204793A5008B98E4 /* Example_FollowMe.pde */,
+				638DA827204793A4008B98E4 /* Example_Gyroscope_Accelerometer.pde */,
+				638DA828204793A5008B98E4 /* Example_Multitouch.pde */,
+				638DA820204793A3008B98E4 /* GoogleService-Info.plist */,
+				638DA823204793A4008B98E4 /* processing.min.js */,
+				638DA824204793A4008B98E4 /* syntax highlighting.plist */,
+				638DA83E204793B6008B98E4 /* Fonts */,
 			);
 			path = Processing;
 			sourceTree = "<group>";
@@ -152,6 +221,20 @@
 			path = ProcessingUITests;
 			sourceTree = "<group>";
 		};
+		638DA83E204793B6008B98E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				638DA83F204793B6008B98E4 /* SourceCodePro-Semibold.ttf */,
+				638DA840204793B6008B98E4 /* SourceCodePro-Medium.ttf */,
+				638DA841204793B6008B98E4 /* SourceCodePro-Light.ttf */,
+				638DA842204793B6008B98E4 /* SourceCodePro-Black.ttf */,
+				638DA843204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf */,
+				638DA844204793B6008B98E4 /* SourceCodePro-Regular.ttf */,
+				638DA845204793B6008B98E4 /* SourceCodePro-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +248,7 @@
 				638DA7EB204213E2008B98E4 /* Resources */,
 				F82D648A7B61E2D064E7B937 /* [CP] Embed Pods Frameworks */,
 				D11B3807C04251562F6544D4 /* [CP] Copy Pods Resources */,
+				6332B8CB204C38C1004CA8A9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -262,9 +346,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638DA832204793A5008B98E4 /* syntax highlighting.plist in Resources */,
 				638DA7FD204213E2008B98E4 /* LaunchScreen.storyboard in Resources */,
+				638DA83C204793A5008B98E4 /* Example_FollowMe.pde in Resources */,
+				638DA848204793B6008B98E4 /* SourceCodePro-Medium.ttf in Resources */,
+				638DA84E204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf in Resources */,
+				638DA852204793B6008B98E4 /* SourceCodePro-Bold.ttf in Resources */,
+				638DA846204793B6008B98E4 /* SourceCodePro-Semibold.ttf in Resources */,
+				638DA84A204793B6008B98E4 /* SourceCodePro-Light.ttf in Resources */,
+				638DA84C204793B6008B98E4 /* SourceCodePro-Black.ttf in Resources */,
+				638DA834204793A5008B98E4 /* Example_Clock.pde in Resources */,
+				638DA82E204793A5008B98E4 /* Example_3D.pde in Resources */,
+				638DA82A204793A5008B98E4 /* GoogleService-Info.plist in Resources */,
 				638DA7FA204213E2008B98E4 /* Assets.xcassets in Resources */,
+				638DA83A204793A5008B98E4 /* Example_Multitouch.pde in Resources */,
+				638DA850204793B6008B98E4 /* SourceCodePro-Regular.ttf in Resources */,
+				638DA836204793A5008B98E4 /* container.html in Resources */,
 				638DA7F8204213E2008B98E4 /* Main.storyboard in Resources */,
+				638DA838204793A5008B98E4 /* Example_Gyroscope_Accelerometer.pde in Resources */,
+				638DA830204793A5008B98E4 /* processing.min.js in Resources */,
+				638DA82C204793A5008B98E4 /* Example_Draw.pde in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +373,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638DA83B204793A5008B98E4 /* Example_Multitouch.pde in Resources */,
+				638DA851204793B6008B98E4 /* SourceCodePro-Regular.ttf in Resources */,
+				638DA847204793B6008B98E4 /* SourceCodePro-Semibold.ttf in Resources */,
+				638DA833204793A5008B98E4 /* syntax highlighting.plist in Resources */,
+				638DA84B204793B6008B98E4 /* SourceCodePro-Light.ttf in Resources */,
+				638DA849204793B6008B98E4 /* SourceCodePro-Medium.ttf in Resources */,
+				638DA82D204793A5008B98E4 /* Example_Draw.pde in Resources */,
+				638DA853204793B6008B98E4 /* SourceCodePro-Bold.ttf in Resources */,
+				638DA839204793A5008B98E4 /* Example_Gyroscope_Accelerometer.pde in Resources */,
+				638DA837204793A5008B98E4 /* container.html in Resources */,
+				638DA83D204793A5008B98E4 /* Example_FollowMe.pde in Resources */,
+				638DA82F204793A5008B98E4 /* Example_3D.pde in Resources */,
+				638DA84F204793B6008B98E4 /* SourceCodePro-ExtraLight.ttf in Resources */,
+				638DA82B204793A5008B98E4 /* GoogleService-Info.plist in Resources */,
+				638DA831204793A5008B98E4 /* processing.min.js in Resources */,
+				638DA84D204793B6008B98E4 /* SourceCodePro-Black.ttf in Resources */,
+				638DA835204793A5008B98E4 /* Example_Clock.pde in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +403,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6332B8CB204C38C1004CA8A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
 		D11B3807C04251562F6544D4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +478,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6332B8CA204C35FA004CA8A9 /* Notification+Processing.swift in Sources */,
+				638DA855204795DD008B98E4 /* UIColor+ProcessingColor.swift in Sources */,
 				638DA7F5204213E2008B98E4 /* SecondViewController.swift in Sources */,
 				638DA7F1204213E2008B98E4 /* AppDelegate.swift in Sources */,
 				638DA7F3204213E2008B98E4 /* FirstViewController.swift in Sources */,
@@ -357,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638DA856204795DD008B98E4 /* UIColor+ProcessingColor.swift in Sources */,
 				638DA808204213E3008B98E4 /* ProcessingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
