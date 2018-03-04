@@ -13,11 +13,11 @@ extension UIColor {
     class func processing() -> UIColor {
         return UIColor(red: 32.0/255.0, green: 58.0/255.0, blue: 92.0/255.0, alpha: 1.0)
     }
-    
+
     class func processingTint() -> UIColor {
         return UIColor.white
     }
-    
+
     class func selection() -> UIColor {
         return UIColor(red: 100.0/255.0, green: 100.0/255.0, blue: 100.0/255.0, alpha: 1.0)
     }

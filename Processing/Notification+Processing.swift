@@ -9,7 +9,7 @@
 import Foundation
 
 extension Notification.Name {
-    func post(object:Any? = nil, userInfo:[AnyHashable: Any]? = nil) {
+    func post(object: Any? = nil, userInfo: [AnyHashable: Any]? = nil) {
         NotificationCenter.default.post(name: self, object: object, userInfo: userInfo)
     }
 }
